@@ -44,6 +44,7 @@ const TodoForm = ({ open, setOpen }: Props) => {
         const payload: any = {
             id: value.id || "",
             data: {
+                id: value.id || "",
                 title: value.title,
                 description: value.description
             }

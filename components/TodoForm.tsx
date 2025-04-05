@@ -155,7 +155,7 @@ const TodoForm = ({ open, setOpen }: Props) => {
                         </div>
                         <DialogFooter>
                             <Button type='button' onClick={() => setOpen(false)} variant="outline">Cancel</Button>
-                            <Button type='submit'>Deploy</Button>
+                            <Button type='submit'>Submit</Button>
                         </DialogFooter>
                     </form>
                 </Form>
